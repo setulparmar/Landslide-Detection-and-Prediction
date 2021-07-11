@@ -1,0 +1,54 @@
+{
+    "Focused-Crawling" : {
+      "Specific-Keywords" : { "southern-monsoon,flood" :
+
+              { "Frequency": ["Only on some particular Datetime"] ,
+
+                "Max_Results" : 50,
+
+                "Location": ["Tamil-Nadu","Odisha"],
+
+                "region_code" : "IN" ,
+
+                "Start-Datetime": " ",
+
+                "End-Datetime": " "
+
+              } ,
+
+                "monsoon" :
+                  { "Frequency": ["Only on some particular Datetime"] ,
+
+                      "Max_Results" : 100,
+
+                      "Location": ["kerala"],
+
+                      "region_code" : "IN" ,
+
+                      "Start-Datetime": " ",
+
+                      "End-Datetime": " "
+
+                    }
+          }
+      } ,
+
+
+      "General-Crawling" : {
+        "General-Keywords" : { "landslide,Mudslide,landslip,earthslip,earthfall,avalanche,icefall,rockfall,Snow-Slide,landslip,flood,GlacierBurst" :
+
+                { "Frequency": ["Daily"] ,
+
+                  "Max_Results" : 200,
+
+                  "Location": ["India","China-Border","Nepal-Border"],
+
+                  "region_code" : "IN" ,
+
+                  "Start-Datetime": " " ,
+
+                  "End-Datetime": " "
+                }
+            }
+        }
+}
