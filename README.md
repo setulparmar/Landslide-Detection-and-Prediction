@@ -1,15 +1,19 @@
 # Landslide-Prediction
 
-This project was done during my summer internship under Associate Prof. Gagan Raj Gupta at IIT - Bhilai
+This project is in progress currently in my summer internship under Associate Prof. Gagan Raj Gupta at IIT - Bhilai
 
---> Automated crowdsourcing of data from various resources about landslides in india with the help of general and focused crawler with the help of self made JSON configuration file.
+--> Daily crowdsourcing from youtube and twitter about landslides in india using general and focused crawler with the help of JSON configuration file.
 
---> We then automated preprocessing the data using different methods such as NLP techniques , hard coding to remove irrelevant data from Youtube dataset. Also if queries were in hindi language, it gets converted into english.
+--> Further,did the data preprocessing using different methods of NLP techniques , hard coding to filter out irrelevant data from Youtube dataset.
 
---> Youtube Dataset was then used to Rank important keywords using YAKE library so as to do more research about some particular landslide event using our focused crawler.
+--> Youtube Dataset was then used to do data analysis and clustering using pre trained sentence transformer models and unsupervised approach.
 
---> I used the data that my teammates collected from NASA inventory to do analyse data and finding which districts has most no. of landslides and then made another datasets for top 5 districts further for binary classification
+--> Then extracted keywords with their ranks using YAKE library so as to do more research about some important landslide event using focused crawler.
 
---> For classification , Explanatory variables were Rainfall data , Month and elevation to do binary classification using various Machine Learning and Deep Learning Algorithms. 
+--> Further did binary time series classification per district for top 5 districts where landslides occurs the most.
 
---> We also are currently working on developing novel NLP model to Extract Facts and location from the GSI dataset and other inventories. I also Improved time complexity using implementation of TRIE data structure to have faster location extraction. 
+--> For classification , Explanatory variables were Rainfall data , Month and earthquake data where applied various machine Learning and designed deep Learning algorithms to predict whether there will be landslide or not. 
+
+--> We also are currently working on developing novel NLP model to Extract Facts and location from the GSI dataset and other inventories. Also improved time complexity using implementation of TRIE data structure to have faster location extraction. 
+
+Note : Daily automatic collection and filtering was there with the help of scheduling in deepnote.com
