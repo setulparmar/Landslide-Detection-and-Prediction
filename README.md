@@ -1,9 +1,11 @@
 # Landslide Detection and Prediction
 
+# Configuration File
+The JSON configuration file was optimised to accommodate the numerous API calls for different landslide occurrences. 
 
 # Crawler Engine
 
-**Designed JSON config file to manage API calls** and build crawler engine to crowdsource landslide related events in india from youtube and twitter. Further divided crawler engine to do general and focused crawling.
+**Designed an JSON configuration file to manage API calls for different landslide events** and build crawler engine to crowdsource landslide related events in india from youtube and twitter. Further divided crawler engine to do general and focused crawling.
 
 # Filtering and Pre-Processing
 
