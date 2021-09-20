@@ -25,6 +25,7 @@ Ranked Important Keywords using YAKE library which helped us to do more focused 
 Improved time complexity of Location Extraction by implementing advanced and scalable trie data structure using APIs from Pygtrie library.
 
 **Prediction Model**
+
 Built a Binary Time Series Forecasting model achieving training and testing accuracy of 99% and 91% respectively.
 
 
