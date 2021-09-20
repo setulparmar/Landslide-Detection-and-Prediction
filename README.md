@@ -1,7 +1,8 @@
 # Landslide Detection and Prediction
 
 **Configuration File**
-The JSON configuration file was optimised to accommodate the numerous API calls for different landslide occurrences. 
+
+Developed JSON configuration file which separates the crawler engine into general and focused crawling modes and helps to optimize different API calls for different landslide events.
 
 **Crawler Engine**
 
