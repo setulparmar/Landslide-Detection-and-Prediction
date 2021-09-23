@@ -2,7 +2,7 @@
 
 **Configuration File**
 
-Developed JSON configuration file which separates the crawler engine into general and focused crawling modes and helps to optimize different API calls for different landslide events.
+Designed JSON configuration file which separates the crawler engine into general and focused crawling modes and helps to optimize different API calls for different landslide events.
 
 **Crawler Engine**
 
