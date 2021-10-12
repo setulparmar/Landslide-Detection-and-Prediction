@@ -6,7 +6,7 @@ Designed JSON configuration file which separates the crawler engine into general
 
 **Crawler Engine**
 
-Build crawler engine to crowdsource landslide related events in india from youtube and twitter. Further divided crawler engine to do general and focused crawling.
+Built crawler engine to crowdsource landslide related events in india from youtube and twitter. Further divided crawler engine to do general and focused crawling.
 
 **Filtering and Pre-Processing**
 
@@ -26,7 +26,7 @@ Improved time complexity of Location Extraction by implementing advanced and sca
 
 **Prediction Model**
 
-Applied CNN to predict landslide events
+Applied CNN to predict landslide events.
 
 
 Note : Daily automatic collection and filtering was there with the help of scheduling in deepnote.com .
